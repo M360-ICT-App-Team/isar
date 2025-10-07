@@ -31,4 +31,10 @@ android {
     defaultConfig {
         minSdkVersion 23
     }
+
+    sourceSets {
+    main {
+            jniLibs.srcDirs = ['src/main/jniLibs']
+        }
+    }
 }
